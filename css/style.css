@@ -76,6 +76,14 @@
 	border-width: 1px;
 	border-color: #dddddd;
 }
+#portfolio-main-section {
+	background-color: white;
+	margin-top:50px;
+	padding-bottom:25px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+}
 #side-bar {
 	background-color: white;
 	width:317px;
@@ -213,5 +221,14 @@
 	}
 	#contact-contact {
 		display:none;
+	}
+	.portfolio_image {
+		display:none;
+	}
+	.portfolio_caption {
+		margin-bottom: 25px;
+	}
+	#portfolio-main-section {
+		height: 250px;
 	}
 }
