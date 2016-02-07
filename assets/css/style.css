@@ -1,0 +1,143 @@
+#wrapper {
+	background-image: url(../images/swirl_pattern.png);
+	margin-top:0px;
+	height:750px;
+}
+#header {
+	clear:both;
+	background-color: #666666;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:10px;
+	border-color:#4aaaa5;
+}
+#links {
+	float: right;
+	margin-right: 60px;
+	margin-top: 40px;
+	color: gray;
+}
+.toplink {
+	color:#dddddd;
+	padding:7px;
+	font-size:16px;
+}
+.toplink:hover {
+	color: #4aaaa5;
+}
+.toplink:active {
+	color:black;
+	font-size:20px;
+}
+
+#footer {
+	height:70px;
+	clear:both;
+	background-color: #666666;
+	border-style:solid;
+	border-color: #4aaaa5;
+	border-top-width:10px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+}
+#copyright {
+	text-align: center;
+	padding-top: 10px;
+	color:#dddddd;
+}
+.name {
+	float: left;
+	background-color: #4aaaa5;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	position: static;
+	top: 0;
+	font-size: 30px;
+	left: 0;
+	color: white;
+	padding: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#portfolio {
+	border-style: solid;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-color: #dddddd;
+}
+#main-section {
+	background-color: white;
+	margin-top:50px;
+	padding-bottom:25px;
+}
+#side-bar {
+	background-color: white;
+	width:317px;
+	margin-top:50px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width:1px;
+}
+.main-header {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-style: solid;
+	padding: 10px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-bottom-width: 2px;
+	border-bottom-color: #dddddd;
+}
+.media-image {
+	height:65px;
+	margin:15px;
+	margin-top:0px;
+	width:65px;
+     filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+}
+.media-image:hover{
+	  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+
+  filter: grayscale(0%);
+     -webkit-filter: grayscale(0%);
+     -moz-filter: grayscale(0%);
+     -ms-filter: grayscale(0%);
+     -o-filter: grayscale(0%);
+}
+.media-link {
+	float: left;
+	color:white;
+	margin-bottom:7px;
+	padding-top:7px;
+}
+.media-link:hover {
+	color:#4aaaa5;
+}
+.media-text {
+	text-align: center;
+	font-size:14px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#photo {
+	width:275px;
+}
+#myphoto {
+	float:left;
+}
+#about-me {
+	font-size:16px;
+	line-height: 24px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
