@@ -122,6 +122,7 @@
 .media-link {
 	float: left;
 	color:white;
+	font-size:16px;
 	margin-bottom:7px;
 	padding-top:7px;
 }
