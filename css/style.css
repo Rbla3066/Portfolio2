@@ -232,3 +232,11 @@
 		height: 250px;
 	}
 }
+@media screen and (max-width:310px) {
+	#links {
+		margin-bottom: 50px;
+	}
+	#name {
+		text-align: center;
+	}
+}
