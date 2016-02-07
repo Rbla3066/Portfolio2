@@ -211,4 +211,7 @@
 	#about-me {
 		font-size: 24px;
 	}
+	#connect-contact {
+		display:none;
+	}
 }
