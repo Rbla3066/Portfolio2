@@ -232,11 +232,29 @@
 		height: 250px;
 	}
 }
-@media screen and (max-width:310px) {
+@media screen and (max-width:400px) {
 	#links {
 		margin-bottom: 50px;
+		float: default;
+		text-align:center;
 	}
 	#name {
 		text-align: center;
+	}
+	#main-section {
+		width: 310px;
+
+	}
+	#wrapper {
+		height: 1300px;
+	}
+	#feedback {
+		width: 250px;
+	}
+	#contactname {
+		width: 250px;
+	}
+	#email {
+		width: 250px;
 	}
 }
