@@ -141,3 +141,48 @@
 	line-height: 24px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+#contactname {
+	width: 400px;
+}
+#email {
+	width: 400px;
+}
+#feedback {
+	width: 400px;
+	height: 100px;
+}
+#button {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding:8px;
+	font-size: 15px;
+}
+.portfolio_image {
+	z-index: 10;
+}
+.portfolio_caption {
+	position: relative;
+	z-index: 20;
+	height:22px;
+	color:#dddddd;
+	width:150px;
+	text-align: center;
+	background-color: #4aaaa5;
+	top: -33px;
+	left: 0px;
+}
+.portfolio_caption:hover {
+	color:white;
+	height:28px;
+	font-size:20px;
+}
+#right_portfolio {
+	float:right;
+	padding-right:20px;
+	margin-right:50px;
+}
+#left_portfolio {
+	float: left;
+	padding-left:20px;
+}
