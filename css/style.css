@@ -198,7 +198,7 @@
 	float: left;
 	padding-left:20px;
 }
-@media screen and (max-width:990px) {
+@media screen and (max-width:991px) {
 	#connect {
 		display: none;
 	}
@@ -237,13 +237,21 @@
 		margin-bottom: 50px;
 		float: default;
 		text-align:center;
+		margin-right: 95px;
 	}
-	#name {
+	.name {
+		text-align: center;
+		margin-left: 92px;
+	}
+	.toplink {
 		text-align: center;
 	}
 	#main-section {
 		width: 310px;
-
+		margin-left: 45px;
+	}
+	#side-bar {
+		margin-left: 37px;
 	}
 	#wrapper {
 		height: 1300px;
@@ -257,4 +265,5 @@
 	#email {
 		width: 250px;
 	}
+	
 }
