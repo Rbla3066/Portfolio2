@@ -3,6 +3,11 @@
 	margin-top:0px;
 	height:750px;
 }
+#portfolio-wrapper {
+	background-image: url(../images/swirl_pattern.png);
+	margin-top:0px;
+	height:750px;
+}
 #header {
 	clear:both;
 	background-color: #666666;
@@ -190,9 +195,9 @@
 	font-size:20px;
 }
 #right_portfolio {
-	float:right;
 	padding-right:20px;
 	margin-right:50px;
+	margin-left: 250px;
 }
 #left_portfolio {
 	float: left;
@@ -222,14 +227,19 @@
 	#contact-contact {
 		display:none;
 	}
-	.portfolio_image {
-		display:none;
-	}
 	.portfolio_caption {
 		margin-bottom: 25px;
 	}
 	#portfolio-main-section {
-		height: 250px;
+		height: 600px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#portfolio-wrapper {
+		height: 1000px;
+	}
+	#side-bar {
+		margin-left: 50px;
 	}
 }
 @media screen and (max-width:400px) {
@@ -253,8 +263,21 @@
 	#side-bar {
 		margin-left: 37px;
 	}
+	#portfolio-main-section {
+		height: 925px;
+	}
+	#left_portfolio {
+		margin-left: 33px;
+	}
+	#right_portfolio {
+		clear: both;
+		margin-left: 50px;
+	}
 	#wrapper {
 		height: 1300px;
+	}
+	#portfolio-wrapper {
+		height: 1400px;
 	}
 	#feedback {
 		width: 250px;
